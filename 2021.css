@@ -1,0 +1,493 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    margin: 0;
+}
+.secondimg img{
+    width: 40%;
+    height: 600px;
+    display: none;
+}
+.mainimg,.secondimg{
+    text-align: center;
+}
+.mainimg img{
+    width: 100%;
+    height: 530px;
+}
+.mainwish{
+    text-align: center;
+}
+.mainwish h1{
+    color: white;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin: 0;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.mainbutton,.secondbutton{
+    text-align: center;
+}
+.mainbutton button,.secondbutton button{
+    text-decoration: none;
+    border: 2px solid white;
+    background-color: transparent;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Lora', serif;
+    padding: 4px;
+}
+.secondbutton button{
+    display: none;
+    color: black;
+    border: 2px solid black;
+}
+.mainbutton button:hover{
+    border: 3px solid black;
+    font-size: 25px;
+}
+.secondbutton button:hover{
+    border: 3px solid white;
+    font-size: 25px;
+}
+p{
+    font-size: 40px;
+    color: white;
+    display: none;
+}
+.input{
+    text-align: center;
+}
+.input input{
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    width: 300px;
+    height: 50px;
+    color: black;
+    font-size: 25px;
+    border-bottom: 3px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: none;
+}
+.input input:active{
+    background-color: black;
+    color: white;
+}
+.input a{
+    display: none;
+    
+}
+.input a img{
+    width: 600px;
+    height: auto;
+    margin-top: 0;
+}
+.maindoor{
+    text-align: center;
+}
+.maindoor img{
+    display: none;
+    width: 30%;
+    height: auto;
+    margin-top: 0;
+}
+
+.maindoor img:hover{
+    width: 32%;
+}
+/* main page */
+
+
+
+
+
+
+
+
+
+.arrow21{
+    width: 100%;
+    height: 50px;
+}
+.arrow21 a{
+    color:white;
+    background-color: black;
+    font-size: 40px;
+    display: none;
+    position: fixed;
+}
+.arrow21 a:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+.samplemain{
+    width: 100%;
+    margin: 0;
+    display: none;
+
+}
+
+.samplehead h1{
+    font-size: 40px;
+    position: relative;
+    top: 340px;
+    left: 30%;
+    font-family:  'Yellowtail', cursive;;
+    text-shadow: 1px 1px 2px white;
+    width: 420px;
+}
+.sample3sum{
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    text-align: center;
+   
+}
+.samplesum{
+    width: 23.33%;
+    height: 100%;
+    float: left;
+    border: 1px solid black;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 2px 2px 2px black;
+}
+.sampleduo{
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sampleone{
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 20px;
+}
+.foot{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    margin-top: 30px;
+}
+.foot h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100;
+    color: white;
+    font-family:'Anton', sans-serif; 
+    padding-top: 60px;
+}
+.samplesum img,.sampleduoimg img{
+    width: 100%;
+    height: 100%;
+}
+.sampleduotxt{
+    font-size: 30px;
+    text-align: center;
+     overflow: auto;
+     font-family:  'Roboto Slab', serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:768px) and (max-width:991px){
+    .mainimg img{
+        width: 100%;
+        height: 460px;
+    }
+    .secondimg img{
+        width: 50%;
+        height: 500px;
+        display: none;
+    }
+    .maindoor img{
+        width: 50%;
+        height: auto;
+    }
+    .maindoor img:hover{
+        width: 52%;
+    }
+     .input a img{
+         width: 400px;
+         height: auto;
+     }
+
+
+
+
+    /* main page */
+
+
+
+
+
+
+
+
+    
+    .sample3sum{
+        height: 250px;
+    }
+    .sampleduo{
+        height: 400px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .sampleone{
+        padding: 15px;
+    }
+    .foot{
+        width: 100%;
+        height: 150px;
+        background-color: black;
+        margin-top: 25px;
+    }
+    .foot h1{
+        text-align: center;
+        font-size: 35px;
+        font-weight: 100;
+        color: white;
+        font-family:'Anton', sans-serif; 
+        padding-top: 50px;
+    }
+    .sampleduotxt{
+        font-size: 28px;
+    }
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:450px) and (max-width:767px){
+    .mainimg img{
+        width: 100%;
+        height: 360px;
+    }
+    .secondimg img{
+        width: 60%;
+        height: 370px;
+        display: none;
+    }
+    .mainwish h1{
+        font-size: 30px;
+    }
+    .mainbutton button,.secondbutton button{
+        border: 1px solid white;
+        margin-top: 5px;
+        font-size: 15px;
+        padding: 2px;
+    }
+    .secondbutton button{
+        border: 1px solid black;
+    }
+    .mainbutton button:hover{
+        border: 2px solid black;
+        font-size: 20px;
+    }
+    .secondbutton button:hover{
+        border: 2px solid white;
+        font-size: 20px;
+    }
+    .input input{
+        width: 200px;
+        height: 30px;
+        font-size: 15px;
+        border-bottom: 1px solid black;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .maindoor img{
+        width: 80%;
+        height: auto;
+    }
+    .maindoor img:hover{
+        width: 82%;
+    }
+    .input a img{  
+        width: 300px;
+    }
+    /* main page */
+
+
+
+
+
+
+
+
+    
+    
+    .samplehead h1{
+        font-size: 28px;
+        position: relative;
+        top: 340px;
+        left: 30%;
+        width: 260px;
+        margin-bottom: 50px;
+    }
+    .sample3sum{
+        height: 180px;
+    }
+    .sampleduo{
+        height: 280px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .sampleone{
+        padding: 15px;
+    }
+    .foot{
+        height: 150px;
+    }
+    .foot h1{
+        font-size: 30px;
+        padding-top: 40px;
+    }
+    .sampleduotxt{
+        font-size: 23px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:449px){
+    .mainimg img{
+        width: 100%;
+        height: 260px;
+    }
+    .secondimg img{
+        width: 60%;
+        height: 300px;
+        display: none;
+    }
+    .mainwish h1{
+        font-size: 20px;
+    }
+    .mainbutton button,.secondbutton button{
+        border: 1px solid white;
+        margin-top: 5px;
+        font-size: 10px;
+        padding: 2px;
+    }
+    .secondbutton button{
+        border: 1px solid black;
+    }
+    .mainbutton button:hover{
+        border: 1px solid black;
+        font-size: 15px;
+    }
+    .secondbutton button:hover{
+        border: 1px solid white;
+        font-size: 15px;
+    }
+    .input input{
+        width: 150px;
+        height: 20px;
+        font-size: 10px;
+        border-bottom: 1px solid black;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .input a img{
+        width: 200px;
+    }
+    .maindoor img{
+        width: 98%;
+        height: auto;
+    }
+    .maindoor img:hover{
+        width: 100%;
+    }
+    /* main page */
+
+
+
+
+
+
+
+
+
+    .samplehead h1{
+        font-size: 20px;
+        position: relative;
+        top: 350px;
+        left: 30%;
+       width: 180px;
+       margin-bottom: 60px;
+    }
+    .sample3sum{
+        height: 110px;
+       
+    }
+    .sampleduo{
+        height: 200px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .sampleone{
+        padding: 10px;
+    }
+    .foot{
+        height: 100px;
+        margin-top: 18px;
+    }
+    .foot h1{
+        font-size: 20px;
+        padding-top: 30px;
+    }
+    .sampleduotxt{
+        font-size: 20px;
+    }
+
+}
